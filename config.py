@@ -35,7 +35,7 @@ if match:
     for f in formats:
         links.append(f['url'])
     finalurl=links[-1]
-elif STREAM.startswith("https://t.me/tgbotsproject"):
+elif STREAM.startswith("https://t.me/o604254"):
     try:
         msg_id=STREAM.split("/", 4)[4]
         finalurl=int(msg_id)
